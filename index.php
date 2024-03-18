@@ -9,11 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="bg-dark">
-    <nav id="navbar" class="fw-bold navbar navbar-dark navbar-expand-md">
+<body >
+    <script src="script.js"></script>
+    <div>
+        <div class="bg-dark">
+            <nav id="navbar" class="fw-bold navbar navbar-dark navbar-expand-md">
                 <a class="ms-3 navbar-brand" href="#">
                     <img style="height: 60px;" src="1.png"></img>
                 </a>
@@ -23,15 +26,20 @@
                 <div  class="align-self-end justify-content-end p-3 collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="fa nav-link text-white text-decoration-none" href="#">Login</a>
+                            <a class="fa nav-link text-white text-decoration-none" id="login" href="#">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="fa nav-link text-white text-decoration-none" href="#proj">Signup</a>
+                            <a class="fa nav-link text-white text-decoration-none" id="signup" href="#proj">Signup</a>
                     </ul>
                 </div>
             </nav>
+        </div>
     </div>
-    
+    <div id="background" class="vh-100">
+            <div id="login1" class="ms-0 p-3 ms-sm-3" ></div>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
 
