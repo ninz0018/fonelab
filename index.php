@@ -42,19 +42,7 @@
     <div  >
             <div id="login1" class="min ms-0 p-3 ms-sm-3" ></div>
     </div>
-    <form action="process/signin.php" method="post" class="mt-0 mt-sm-5">
-    <div class="p-3 col col-sm-3 border bg-warning rounded">
-        <h1 class="bg-white rounded p-2 fa d-flex align-items-center justify-content-center" >LOG-IN</h1><br>
-        <label class="fw-bold fa mb-2" for="username">Username:</label>
-            <input type="text" class="form-control" id="users" autocomplete="off" required placeholder="Enter Username"><br>
-        <label class="fw-bold fa mb-2" for="password">Password:</label>
-            <input type="password" name="password" id="pwd" placeholder="Enter Password" autocomplete="off" class="form-control"><br>
-        <div class="d-flex align-items-center justify-content-center">
-            <button class="fa btn btn-primary" type="submit" id="sign">SIGN-IN</button><br>
-        </div>
-        <a class="d-flex align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
-    </div>
-</form>
+    
     <div class="d-flex align-self-center justify-content-center bg-warning">
         <div>
             <a href="https://m.me/ninz.getz.9" target="_blank">
