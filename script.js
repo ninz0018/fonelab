@@ -1,7 +1,7 @@
 //FOR SIGNIN
 $(document).on('click','#login', function(e){
     e.preventDefault();
-    $("#login1").html(` <form action="" method="post" class="mt-0 mt-sm-5">
+    $("#login1").html(` <form action="process/signin.php" method="post" class="mt-0 mt-sm-5">
     <div class="p-3 col col-sm-3 border bg-warning rounded">
         <h1 class="bg-white rounded p-2 fa d-flex align-items-center justify-content-center" >LOG-IN</h1><br>
         <label class="fw-bold fa mb-2" for="username">Username:</label>
