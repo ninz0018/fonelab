@@ -13,54 +13,54 @@
     <title>FONELAB</title>
 </head>
 <body>
-    <div class="border bg-white rounded fa d-flex justify-content-center align-items-center" >
+    <div class="border bg-white rounded fa cntr" >
         <h1>CELLPHONE ACCESSORIES</h1>
     </div>
     <div class="bg-white row p-3">
         <div class="col-9 border rounded">
-            <div class="fw-bold d-flex justify-content-center align-items-center border rounded">
+            <div class="fw-bold cntr border rounded">
                 <h3>CHARGER</h3>
             </div>
-            <div class=" col-12 border rounded d-flex justify-content-center align-items-center" >
+            <div class=" col-12 border rounded cntr" >
                 <div class="view col-2 border rounded p-1 ">
-                    <h5 class="d-flex justify-content-center align-items-center">Type C Charger</h5>
-                    <a class="d-flex justify-content-center align-items-center" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
-                    <div class="d-flex justify-content-center align-items-center">
+                    <h5 class="cntr">Type C Charger</h5>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
                         <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="view col-2 border rounded p-1 ">
-                    <h5 class="d-flex justify-content-center align-items-center">Type C Charger</h5>
-                    <a class="d-flex justify-content-center align-items-center" href="" > <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt=""></a>
-                    <div class="d-flex justify-content-center align-items-center">
+                    <h5 class="cntr">Type C Charger</h5>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt=""></a>
+                    <div class="cntr">
                         <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="view col-2 border rounded p-1 ">
-                    <h5 class="d-flex justify-content-center align-items-center">Type C Charger</h5>
-                    <a class="d-flex justify-content-center align-items-center" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
-                    <div class="d-flex justify-content-center align-items-center">
+                    <h5 class="cntr">Type C Charger</h5>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
                         <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="view col-2 border rounded p-1 ">
-                    <h5 class="d-flex justify-content-center align-items-center">Type C Charger</h5>
-                    <a class="d-flex justify-content-center align-items-center" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
-                    <div class="d-flex justify-content-center align-items-center">
+                    <h5 class="cntr">Type C Charger</h5>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
                         <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="view col-2 border rounded p-1 ">
-                    <h5 class="d-flex justify-content-center align-items-center">Type C Charger</h5>
-                    <a class="d-flex justify-content-center align-items-center" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
-                    <div class="d-flex justify-content-center align-items-center">
+                    <h5 class="cntr">Type C Charger</h5>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
                         <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="view col-2 border rounded p-1 ">
-                    <h5 class="d-flex justify-content-center align-items-center">Type C Charger</h5>
-                    <a class="d-flex justify-content-center align-items-center" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
-                    <div class="d-flex justify-content-center align-items-center">
+                    <h5 class="cntr">Type C Charger</h5>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
                         <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
