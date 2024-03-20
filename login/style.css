@@ -1,0 +1,6 @@
+.view:hover{
+    transform: scale(1.1);
+    background-color: #52c0ff;
+    border-radius: 800px;
+  }
+  
