@@ -15,35 +15,85 @@
 <body>
     <script src="script.js" ></script>
     <div class="d-flex justify-content-end align-items-end p-3" >
-        <button for="log-out" class="fa btn btn-warning rounded">
+        
+    </div>
+    <div class="row border bg-white rounded fa cntr" >
+        <label class="fs-1 col-8 col-sm-10 cntr" >CELLPHONE ACCESSORIES</label>
+        <button for="log-out" class="col-4 col-sm-2 fa btn btn-warning rounded">
             <a href="../index.php" style="text-decoration: none;" >LOG-OUT</a>
         </button>
     </div>
-    <div class="border bg-white rounded fa cntr" >
-        <h2>CELLPHONE ACCESSORIES</h2>
+    <div class="" >
+        <nav id="navbar" class="bar fw-bold navbar navbar-dark bg-dark navbar-expand-md rounded">
+            <button style="margin-right: 10px;" class="ms-2 btn-warning navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div  class="row collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto align-items-center justify-content-center">
+                   <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                        <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="login" href="#char">CHARGER</a>
+                    </li>
+                    <li class="col-12 col-sm-2 cntr border border-danger ms-1 view rounded nav-item">
+                        <a class="fa  rounded nav-link text-white text-decoration-none" id="signup" href="#hSet">HEADSET</a>
+                    </li>
+                    <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                        <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#char">POWERBANK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <nav id="navbar" class="fw-bold navbar navbar-dark bg-dark navbar-expand-md rounded">
-                    <button style="margin-right: 10px;" class="ms-2 btn-warning navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div  class="row collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto align-items-center justify-content-center">
-                        <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
-                            <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="login" href="#char">CHARGER</a>
-                        </li>
-                        <li class="col-12 col-sm-2 cntr border border-danger ms-1 view rounded nav-item">
-                            <a class="fa  rounded nav-link text-white text-decoration-none" id="signup" href="#char">HEADSET</a>
-                        </li>
-                        <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
-                            <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#char">POWERBANK</a>
-                        </li>
-                    </ul>
-                </div>
-    </nav>
     <div class="bg-white row p-3">
-        <div class="col-12 col-sm-9 border border-primary rounded">
+        <div class="col-12 col-sm-9 border border-primary rounded"> 
             <div id="char" class="bg-dark fa text-white fw-bold cntr border rounded">
                 <h3>CHARGER</h3>
+            </div>
+            <div class="border row rounded cntr" > 
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
+                    <label class="cntr" for="product">Type C Charger</label>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
+                        <button id="adding" class="add btn btn-primary rounded mt-2 " value="150">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
+                    <label class="cntr" for="product">Type B Charger</label>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt=""></a>
+                    <div class="cntr">
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
+                    <label class="cntr" for="product">IPHONE CHARGER</label>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
+                    <label class="cntr" for="product">SAM CHARGER</label>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
+                    <label class="cntr" for="product">VIVO CHARGER</label>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
+                    <label class="cntr" for="product">OPPO CHARGER</label>
+                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
+                    <div class="cntr">
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                    </div>
+                </div>       
+            </div>
+            <div id="hSet" class="bg-dark fa text-white fw-bold cntr border rounded">
+                <h3>HEADSET</h3>
             </div>
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">

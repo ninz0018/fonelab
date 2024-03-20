@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body id="background" class="full-height" >
-    <script src="script.js"></script>
+<body id="background">
+    <script src="script.js"></script> 
     <div>
         <div>
             <nav id="navbar" class="fw-bold navbar navbar-dark bg-dark navbar-expand-md">
@@ -37,13 +37,13 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+        </div> 
     </div>
     <div  >
             <div id="login1" class="min ms-0 p-3 ms-sm-3" ></div>
     </div>
     
-    <div class="d-flex align-self-center justify-content-center bg-warning">
+    <div class="d-flex align-items-center justify-content-center bg-warning adjust">
         <div class="sizes">
             <a href="https://m.me/ninz.getz.9" target="_blank">
                 <img class="sizes" src="contact/fb.svg" alt="FACEBOOK">
