@@ -1,22 +1,18 @@
 $(document).on('click','.add', function(){
-    let s = 
-    $("#pName").append(`<li>Type C Charger</li>`)
-    $("#price").append(`<li>P ` + s + `</li>`)
 
-    v = $("#price").each();
-    s = $("#total").val(v);
-    sum = v + s;
+    let s = $("#adding").val();
+    $("#pName").append(`<li>Type C Charger</li>`)
+    $("#price").append(`<li class="tot">` + s + `</li>`)
+
+    calculate();
 })
 
-$( document ).ready(function() {
-    total = 0;
-    total = $("#price").each();
-
-    total = total + parseInt($(this).text());
-        
-        $("#total").val(total);
-
+function calculate() {
+    let total = 0;
+    $('.tot').each(function() {
+      total = total + parseInt($(this).text());
     });
-    
+    $('#total').text(total.toFixed(1));
+}
 
 

@@ -14,60 +14,65 @@
 </head>
 <body>
     <script src="script.js" ></script>
+    <div class="d-flex justify-content-end align-items-end p-3" >
+        <button for="log-out" class="fa bg-warning rounded">LOG-OUT
+            <a href="../index.php"></a>
+        </button>
+    </div>
     <div class="border bg-white rounded fa cntr" >
         <h1>CELLPHONE ACCESSORIES</h1>
     </div>
     <div class="bg-white row p-3">
-        <div class="col-9 border border-primary rounded">
+        <div class="col-12 col-sm-9 border border-primary rounded">
             <div class="fw-bold cntr border rounded">
                 <h3>CHARGER</h3>
             </div>
-            <div class="border rounded cntr" >
-                <div class="view border rounded p-1 ">
+            <div class="border row rounded cntr" >
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">Type C Charger</label>
                     <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="add btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <button id="adding" class="add btn btn-primary rounded mt-2 " value="150">Add to Cart</button>
                     </div>
                 </div>
-                <div class="view border rounded p-1 ">
-                    <label class="adds cntr" for="product">Type B Charger</label>
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
+                    <label class="cntr" for="product">Type B Charger</label>
                     <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="add btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
-                <div class="view border rounded p-1 ">
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">IPHONE CHARGER</label>
                     <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="add btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
-                <div class="view border rounded p-1 ">
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">SAMSUNG CHARGER</label>
                     <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="add btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
-                <div class="view border rounded p-1 ">
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">VIVO CHARGER</label>
                     <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="add btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
-                <div class="view border rounded p-1 ">
+                <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">OPPO CHARGER</label>
                     <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="add btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>       
             </div>
         </div>
-        <div class="col border rounded" >
+        <div class="col-12 col-sm-3 border rounded" >
             <div>
                 <div class="d-flex justify-content-center align-items-center">
                     <h3>ORDER LIST</h3>
@@ -91,8 +96,8 @@
                     </table>
                     <div>
                         <div>
-                            <label for="total">Total:</label>
-                            <input style=" pointer-events: none;" type="text" name="total" id="total">
+                            <label for="total">Total: P</label>
+                            <label style=" pointer-events: none;" type="text" name="total" id="total">
                         </div>
                     </div>
                 </div>
