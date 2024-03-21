@@ -1,6 +1,6 @@
 .view:hover{
     transform: scale(1.1);
-    background-color: #52c0ff;
+    background-color: #54f899;
     border-radius: 800px;
   }
   
@@ -9,3 +9,4 @@
     justify-content: center;
     align-items: center;
 }
+

@@ -15,10 +15,10 @@
 <body id="background" class="full-height" >
     <script src="script.js"></script>
     <div>
-        <div class="bg-dark">
-            <nav id="navbar" style="height: 70px;" class="fw-bold navbar navbar-dark navbar-expand-md">
+        <div>
+            <nav id="navbar" class="fw-bold navbar navbar-dark bg-dark navbar-expand-md">
                 <a class="ms-3 navbar-brand" href="#">
-                    <img style="height: auto; width: 100px" src="logo.png"></img>
+                    <img style="height: auto; width: 90px" src="12.png"></img>
                 </a>
                     <button style="margin-right: 10px;" class="btn-warning navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
     </div>
     
     <div class="d-flex align-self-center justify-content-center bg-warning">
-        <div>
+        <div class="sizes">
             <a href="https://m.me/ninz.getz.9" target="_blank">
                 <img class="sizes" src="contact/fb.svg" alt="FACEBOOK">
             </a>
