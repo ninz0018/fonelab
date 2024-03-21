@@ -15,3 +15,7 @@ function calculate() {
     $('#total').text(total.toFixed(1));
 }
 
+$(document).ready(function() { 
+  $('body').scrollspy({ target: '#navbar' });
+})
+

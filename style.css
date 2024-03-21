@@ -22,3 +22,19 @@
     bottom: 0;
     width: 100vw;
 }
+
+.close {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    background: linear-gradient(#000000,#f4ff8d);
+}
+
+.bgs {
+    background: linear-gradient(#585858,#f4ff8d);
+}
