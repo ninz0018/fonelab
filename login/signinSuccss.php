@@ -17,7 +17,7 @@
     <div class="d-flex justify-content-end align-items-end p-3" >
         
     </div>
-    <div class="row border bg-white rounded fa cntr" >
+    <div class="row bg-white rounded fa cntr" >
         <label class="fs-1 col-8 col-sm-10 cntr" >CELLPHONE ACCESSORIES</label>
         <button for="log-out" class="col-4 col-sm-2 fa btn btn-warning rounded">
             <a href="../index.php" style="text-decoration: none;" >LOG-OUT</a>
