@@ -51,44 +51,80 @@
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">Type C Charger</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button id="adding" class="add btn btn-primary rounded mt-2 " value="150">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">Type B Charger</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">IPHONE CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">SAM CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">VIVO CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">OPPO CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
                 </div>       
             </div>
@@ -98,44 +134,80 @@
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">Type C Charger</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button id="adding" class="add btn btn-primary rounded mt-2 " value="150">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">Type B Charger</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/2.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">IPHONE CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">SAM CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">VIVO CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
                     <label class="cntr" for="product">OPPO CHARGER</label>
-                    <a class="cntr" href="" > <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt=""></a>
                     <div class="cntr">
-                        <button class="btn btn-primary rounded mt-2 ">Add to Cart</button>
+                        <img style="height: 100px;" class="rounded" src="../product/1.jpg"  alt="">
+                    </div>
+                    <div class="cntr row">
+                        <div class="cntr" >
+                            <label class="col-3" for="qty">Qty: </label>
+                            <input class="col-3" type="number" name="qty" id="qty">    
+                        </div>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
                 </div>       
             </div>
