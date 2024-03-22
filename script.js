@@ -48,7 +48,7 @@ function log(){
                                     <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
                                     <div class="position d-flex justify-content-center align-items-center position" >
                                         <i class="fas fa-lock psicon"></i>
-                                        <input type="password" name="pwd" id="pwd" placeholder="Enter Password" autocomplete="off" class="form-control"><br>
+                                        <input type="password" name="pwd" id="pwd" placeholder="Enter Password" autocomplete="off" class="form-control" required><br>
                                     </div><br>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <button class="fa btn btn-primary" type="submit" id="sign">SIGN-IN</button><br>
@@ -74,12 +74,12 @@ function signUps(){
                                     <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
                                     <div class="position d-flex justify-content-center align-items-center position" >
                                         <i class="fas fa-lock psicon"></i>
-                                        <input type="password" name="pwd" id="pwd" placeholder="Enter Password" autocomplete="off" class="form-control"><br>
+                                        <input type="password" name="pwd" id="pwd" placeholder="Enter Password" autocomplete="off" class="form-control" required><br>
                                     </div><br>
                                     <label class="fw-bold text-warning fa mb-2" for="rPwd">Repeat Password:</label>
                                     <div class="position d-flex justify-content-center align-items-center position" >
                                         <i class="fas fa-lock psicon"></i>
-                                        <input type="password" name="rPwd" id="rPwd" placeholder="Repeat Password" autocomplete="off" class="form-control"><br>
+                                        <input type="password" name="rPwd" id="rPwd" placeholder="Repeat Password" autocomplete="off" class="form-control" required><br>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center justify-content-center">

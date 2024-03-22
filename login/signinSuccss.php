@@ -30,7 +30,7 @@
     ?>
     <div class="row rounded fa cntr" >
         <label class="fs-1 col-8 col-sm-10 cntr text-white" >CELLPHONE ACCESSORIES</label>
-        <button for="log-out" class="col-4 col-sm-1 fa btn btn-warning rounded">
+        <button for="log-out" class="col-4 col-sm-1 fa btn btn-warning rounded" id="logout">
             <a href="../index.php" style="text-decoration: none;" >LOG-OUT</a>
         </button>
     </div>
