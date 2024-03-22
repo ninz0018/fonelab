@@ -7,17 +7,43 @@ $(document).on('click','#login', function(e){
         $("#login1").removeClass('active');
     }else {
         $("#login1").addClass('active');  */
+        log();
+                            
+        })
+        
+$(document).on('click','#close', function(){
+    $("#login1").html("");
+});
+$(document).ready(function(){
+    log();
+ })
+
+//FOR SIGNUP
+
+$(document).on('click','#signup', function(e){
+    e.preventDefault();
+    signUps();
+    
+/*    if($("#login1").hasClass('active')){
+        $("#login1").html("");
+        $("#login1").removeClass('active');
+    }else {
+        $("#login1").addClass("active"); */
+        
+    })
+
+function log(){
         $("#login1").html(`<form action="process/signin.php" method="post" class="mt-0 mt-sm-5">
                                 <div class="p-1 col col-sm-3 border bg rounded">
                                     <div class="mb-1 d-flex justify-content-end align-items-end" >
                                         <button class="btn btn-dark text-white close" id="close" >x</button>
                                     </div>
-                                <h1 class="text-warning rounded p-2 fa d-flex align-items-center justify-content-center" >SIGN-UP</h1><br>
+                                <h1 class="text-warning rounded p-2 fa d-flex align-items-center justify-content-center" >Sign-In</h1><br>
                                 <div class="p-3">                               
                                     <label class="fw-bold text-warning fa mb-2" for="username">Username:</label>
                                     <div class="d-flex justify-content-center align-items-center position">
                                         <i class="fas fa-user psicon"></i>
-                                        <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username required"><br>  
+                                        <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username"><br>  
                                     </div><br>
                                     <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
                                     <div class="position d-flex justify-content-center align-items-center position" >
@@ -30,29 +56,10 @@ $(document).on('click','#login', function(e){
                                     <a class="d-flex align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
                                 </div>
                             </form>`);
-                            
-        })
-        
-       
-    
-     
+}
 
-$(document).on('click','#close', function(){
-    $("#login1").html("");
-});
-
-//FOR SIGNUP
-
-$(document).on('click','#signup', function(e){
-    e.preventDefault();
-    
-    
-/*    if($("#login1").hasClass('active')){
-        $("#login1").html("");
-        $("#login1").removeClass('active');
-    }else {
-        $("#login1").addClass("active"); */
-        $("#login1").html(` <form action="process/signup.php" method="post" class="mt-0 mt-sm-5">
+function signUps(){
+    $("#login1").html(` <form action="process/signup.php" method="post" class="mt-0 mt-sm-5">
                                 <div class="p-1 col col-sm-3 border bg rounded">
                                     <div class="mb-1 d-flex justify-content-end align-items-end" >
                                         <button class="btn btn-dark text-white close" id="close" >x</button>
@@ -81,5 +88,4 @@ $(document).on('click','#signup', function(e){
                                 <a class="d-flex align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
                                 </div>
                             </form>`);
-    })
- 
+}

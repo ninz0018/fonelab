@@ -14,9 +14,20 @@
 </head>
 <body class="bd" >
     <script src="script.js" ></script>
-    <div class="d-flex justify-content-end align-items-end p-3" >
-        
-    </div>
+    <div class="d-flex justify-content-end align-items-end p-3" ></div>
+    <?php
+        session_start();
+    if (isset($_SESSION["user"])) {
+            echo '<script>
+                    Swal.fire({
+                        title: "Login Successful",
+                        text: "Click OK!!",
+                        icon: "success"
+                    });            
+                </script>';
+    } 
+     session_destroy();
+    ?>
     <div class="row rounded fa cntr" >
         <label class="fs-1 col-8 col-sm-10 cntr text-white" >CELLPHONE ACCESSORIES</label>
         <button for="log-out" class="col-4 col-sm-1 fa btn btn-warning rounded">

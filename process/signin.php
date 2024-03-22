@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -6,8 +7,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $pass = htmlspecialchars($_POST["pwd"]);
     
     if (!empty(trim($user)) && !empty(trim($pass))) {
+        $_SESSION["user"] = "Invalid Password";
         header("Location: ../login/signinSuccss.php");
     }else {
-        echo '<script> alert("Invalid Password")</script>';
+        $_SESSION["pwd"] = "Invalid Password";
+        header("Location: ../index.php");
     }
 }

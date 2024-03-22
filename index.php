@@ -40,8 +40,39 @@
             </nav>
         </div> 
     </div>
-    <div  >
-            <div id="login1" class="min ms-0 p-1 ms-sm-3" ></div>
+    <div>
+    <?php
+        session_start(); 
+        if (isset($_SESSION["pwd"])){
+            echo '<script>
+            Swal.fire({
+                title: "Invalid Password",
+                text: "Try Again!!",
+                icon: "warning"
+              });            
+            </script>';
+        }else if (isset($_SESSION["sUp"])){
+            echo '<script>
+            Swal.fire({
+                title: "Successfully Registered!!",
+                text: "Click ok to Login!!",
+                icon: "success"
+              });            
+            </script>';
+        }else if (isset($_SESSION['match'])){
+            echo '<script>
+            Swal.fire({
+                title: "Password Dont Match",
+                text: "Try Again!!",
+                icon: "warning"
+              });            
+            </script>';
+        }
+            session_destroy();
+        ?>
+
+
+        <div id="login1" class="min ms-0 p-1 ms-sm-3"></div>
     </div>
     <div class="d-flex align-items-center justify-content-center bgs adjust">
         <div class="sizes">

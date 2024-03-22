@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
      
@@ -7,11 +8,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $rPass = htmlspecialchars($_POST["rPwd"]);
     
     if (!empty(trim($user)) && !empty(trim($pass)) && trim($rPass) == $pass) {
-        echo '<script>alert("Successfully Registered!!")</script>'; 
+        $_SESSION["sUp"] = "up";
         header("Location: ../index.php");
     }
     else {
-        echo '<script>alert("Password Dont Match!!")</script>';
+        $_SESSION["match"] = "dontmatch";
+        header("Location: ../index.php");
     }
 
     
