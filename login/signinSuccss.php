@@ -153,6 +153,7 @@
                             <tr>
                                 <th>PRODUCT</th>
                                 <th>PRICE</th>
+                                <th>Qty</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -164,8 +165,8 @@
                     </table>
                     <div>
                         <div>
-                            <label for="total">Total: P</label>
-                            <label style=" pointer-events: none;" type="text" name="total" id="total">
+                            <label for="total" class="fs-3 fw-bold">Total: P</label>
+                            <label class="fs-3 fw-bold" style=" pointer-events: none;" type="text" name="total" id="total">
                         </div>
                     </div>
                 </div>
