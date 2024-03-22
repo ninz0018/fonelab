@@ -1,6 +1,6 @@
 .view:hover{
     transform: scale(1.1);
-    background-color: #75f854;
+    background-color: #c3c9c2;
     border-radius: 800px;
   }
   
@@ -24,8 +24,8 @@
 }
 
 .active {
-    background-color: rgb(139, 255, 44); 
-    color: rgb(109, 255, 117);
+    background-color: rgb(211, 216, 207); 
+    color: rgb(207, 209, 207);
     border-radius: 5px;
   }
 

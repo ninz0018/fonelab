@@ -10,7 +10,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" type="icon/x-icon" href="12.png">
+    <title>FONELAB</title>
 </head>
 <body id="background">
     <script src="script.js"></script> 
