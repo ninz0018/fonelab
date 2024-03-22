@@ -38,3 +38,19 @@
 .bgs {
     background: linear-gradient(#585858,#f4ff8d);
 }
+
+
+.position {
+    position: relative;
+    color: #999;   
+}
+
+.psicon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #999; /* Adjust icon color as needed */
+    cursor: pointer;
+}
+

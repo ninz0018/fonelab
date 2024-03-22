@@ -28,3 +28,8 @@
     color: rgb(109, 255, 117);
     border-radius: 5px;
   }
+
+  .qty {
+    height: 20px;
+    width: 30px;
+  }

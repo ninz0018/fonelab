@@ -66,7 +66,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -79,7 +79,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -92,7 +92,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -105,7 +105,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -118,7 +118,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -131,7 +131,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -149,7 +149,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -162,7 +162,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -175,7 +175,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -188,7 +188,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -201,7 +201,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -214,7 +214,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -232,7 +232,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -245,7 +245,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -258,7 +258,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -271,7 +271,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -284,7 +284,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -297,7 +297,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -315,7 +315,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -328,7 +328,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -341,7 +341,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -354,7 +354,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -367,7 +367,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -380,7 +380,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -398,7 +398,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -411,7 +411,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -424,7 +424,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -437,7 +437,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -450,7 +450,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -463,7 +463,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -481,7 +481,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -494,7 +494,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -507,7 +507,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -520,7 +520,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -533,7 +533,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>
@@ -546,7 +546,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" id="qty">    
                         </div>
                         <button class="col-10 btn btn-primary rounded mt-2 ">Add to Cart</button>
                     </div>

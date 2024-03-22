@@ -12,15 +12,18 @@ $(document).on('click','#login', function(e){
                                     <div class="mb-1 d-flex justify-content-end align-items-end" >
                                         <button class="btn btn-dark text-white close" id="close" >x</button>
                                     </div>
-                                    <h1 class="text-warning rounded p-2 fa d-flex align-items-center justify-content-center" >LOG-IN</h1><br>
-                                    <div class="p-3">
-                                        <i class="fas fa-user"></i>
-                                        <label class="fw-bold text-warning fa mb-2" for="users">Username:</label><br>                 
-                                        <input type="text" name="users" class="form-control" id="users" autocomplete="off" required placeholder="Enter Username"><br>   
-                                        <i class="fas fa-lock"></i>                              
-                                        <label class="fw-bold fa text-warning mb-2" for="pwd">Password:</label>
+                                <h1 class="text-warning rounded p-2 fa d-flex align-items-center justify-content-center" >SIGN-UP</h1><br>
+                                <div class="p-3">                               
+                                    <label class="fw-bold text-warning fa mb-2" for="username">Username:</label>
+                                    <div class="d-flex justify-content-center align-items-center position">
+                                        <i class="fas fa-user psicon"></i>
+                                        <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username"><br>  
+                                    </div><br>
+                                    <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
+                                    <div class="position d-flex justify-content-center align-items-center position" >
+                                        <i class="fas fa-lock psicon"></i>
                                         <input type="password" name="pwd" id="pwd" placeholder="Enter Password" autocomplete="off" class="form-control"><br>
-                                    </div>
+                                    </div><br>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <button class="fa btn btn-primary" type="submit" id="sign">SIGN-IN</button><br>
                                     </div>
@@ -54,22 +57,28 @@ $(document).on('click','#signup', function(e){
                                     <div class="mb-1 d-flex justify-content-end align-items-end" >
                                         <button class="btn btn-dark text-white close" id="close" >x</button>
                                     </div>
-                                    <h1 class="text-warning rounded p-2 fa d-flex align-items-center justify-content-center" >SIGN-UP</h1><br>
-                                    <div class="p-3">
-                                        <i class="fas fa-user"></i>
-                                        <label class="fw-bold text-warning fa mb-2" for="username">Username:</label>
-                                        <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username"><br>
-                                        <i class="fas fa-lock"></i>
-                                        <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
+                                <h1 class="text-warning rounded p-2 fa d-flex align-items-center justify-content-center" >SIGN-UP</h1><br>
+                                <div class="p-3">                               
+                                    <label class="fw-bold text-warning fa mb-2" for="username">Username:</label>
+                                    <div class="d-flex justify-content-center align-items-center position">
+                                        <i class="fas fa-user psicon"></i>
+                                        <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username"><br>  
+                                    </div><br>
+                                    <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
+                                    <div class="position d-flex justify-content-center align-items-center position" >
+                                        <i class="fas fa-lock psicon"></i>
                                         <input type="password" name="pwd" id="pwd" placeholder="Enter Password" autocomplete="off" class="form-control"><br>
-                                        <i class="fas fa-lock"></i>
-                                        <label class="fw-bold text-warning fa mb-2" for="rPwd">Repeat Password:</label>
+                                    </div><br>
+                                    <label class="fw-bold text-warning fa mb-2" for="rPwd">Repeat Password:</label>
+                                    <div class="position d-flex justify-content-center align-items-center position" >
+                                        <i class="fas fa-lock psicon"></i>
                                         <input type="password" name="rPwd" id="rPwd" placeholder="Repeat Password" autocomplete="off" class="form-control"><br>
                                     </div>
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <button class="fa btn btn-primary" type="submit" id="sign">SUBMIT</button><br>
-                                    </div>
-                                    <a class="d-flex align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <button class="fa btn btn-primary" type="submit" id="sign">SUBMIT</button><br>
+                                </div>
+                                <a class="d-flex align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
                                 </div>
                             </form>`);
     })
