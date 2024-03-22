@@ -7,9 +7,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $rPass = htmlspecialchars($_POST["rPwd"]);
     
     if (!empty(trim($user)) && !empty(trim($pass)) && trim($rPass) == $pass) {
-        echo '<script>alert("Successfully Registered!!")</script>';  
+        echo '<script>alert("Successfully Registered!!")</script>'; 
+        header("Location: ../index.php");
     }
     else {
         echo '<script>alert("Password Dont Match!!")</script>';
     }
+
+    
 }

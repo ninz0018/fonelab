@@ -17,7 +17,7 @@ $(document).on('click','#login', function(e){
                                     <label class="fw-bold text-warning fa mb-2" for="username">Username:</label>
                                     <div class="d-flex justify-content-center align-items-center position">
                                         <i class="fas fa-user psicon"></i>
-                                        <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username"><br>  
+                                        <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username required"><br>  
                                     </div><br>
                                     <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
                                     <div class="position d-flex justify-content-center align-items-center position" >

@@ -30,22 +30,22 @@
             </button>
             <div  class="row collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto align-items-center justify-content-center">
-                   <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                   <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
                         <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="login" href="#char">CHARGER</a>
                     </li>
-                    <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
                         <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#cable">CABLE WIRE</a>
                     </li>
-                    <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
                         <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="browse" href="#hSet">HEADSET</a>
                     </li>
-                    <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
                         <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#power">POWERBANK</a>
                     </li>
-                    <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
                         <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#temp">TEMPERED GLASS</a>
                     </li>
-                    <li class="col-12 col-sm-2 border border-danger ms-1 view rounded nav-item">
+                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
                         <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#hard">HARD CASE</a>
                     </li>
                 </ul>
@@ -66,7 +66,7 @@
                     <div class="cntr row">
                         <div class="cntr" >
                             <label class="col-3" for="qty">Qty: </label>
-                            <input class="qty col-3" type="number" name="qty" id="qty">    
+                            <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
                     </div>
@@ -573,6 +573,7 @@
                             <tr>
                                 <td id="pName"></td>
                                 <td id="price"></td>
+                                <td id="quantity"></td>
                             </tr>
                         </tbody>
                     </table>
