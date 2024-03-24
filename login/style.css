@@ -20,6 +20,15 @@
     top: 0;
 }
 
+.order {
+  overflow: hidden;
+  background-color: rgba(61, 61, 61, 0.5);
+  position: -webkit-sticky; 
+  position: sticky;
+  z-index: 888;
+  top: 0;
+}
+
 .bd {
     background: linear-gradient(#020024, #d7c8a0);
 }

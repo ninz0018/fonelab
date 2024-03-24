@@ -46,7 +46,7 @@
         if (isset($_SESSION["pwd"])){
             echo '<script>
             Swal.fire({
-                title: "Invalid Password",
+                title: "Input Password!!!",
                 text: "Try Again!!",
                 icon: "warning"
               });            
