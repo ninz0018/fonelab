@@ -175,7 +175,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-3 border rounded" >
-            <div class="order" >
+            <div class="order rounded" >
                 <div>
                     <div class="d-flex justify-content-center align-items-center">
                         <h3>ORDER LIST</h3>
