@@ -34,37 +34,39 @@
             <a href="../index.php" style="text-decoration: none;" >LOG-OUT</a>
         </button>
     </div>
-    <div class="bar" >
-        <nav id="navbar" class="fw-bold navbar navbar-dark bg-dark navbar-expand-md rounded">
-            <button style="margin-right: 10px;" class="ms-2 btn-warning navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-            </button>
-            <div  class="row collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto align-items-center justify-content-center">
-                   <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
-                        <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="login" href="#char">CHARGER</a>
-                    </li>
-                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
-                        <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#cable">CABLE WIRE</a>
-                    </li>
-                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
-                        <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="browse" href="#hSet">HEADSET</a>
-                    </li>
-                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
-                        <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#power">POWERBANK</a>
-                    </li>
-                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
-                        <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#temp">TEMPERED GLASS</a>
-                    </li>
-                    <li class="col-12 col-sm-2 border ms-1 view rounded nav-item">
-                        <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#hard">HARD CASE</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
     <div class="bg-white row p-3">
-        <div class="col-12 col-sm-9 border border-primary rounded"> 
+        <div class="col-12 col-sm-2 bg-dark rounded" >
+            <div class="bar" >
+                <nav id="navbar" class="fw-bold navbar navbar-dark bg-dark navbar-expand-md rounded">
+                    <button style="margin-right: 10px;" class="ms-2 btn-warning navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div  class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="row navbar-nav ml-auto align-items-center justify-content-center">
+                            <li class="col-12 border ms-1 view rounded nav-item">
+                                <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="login" href="#char">CHARGER</a>
+                            </li>
+                            <li class="col-12 border ms-1 view rounded nav-item">
+                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#cable">CABLE WIRE</a>
+                            </li>
+                            <li class="col-12 border ms-1 view rounded nav-item">
+                                <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="browse" href="#hSet">HEADSET</a>
+                            </li>
+                            <li class="col-12 border ms-1 view rounded nav-item">
+                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#power">POWERBANK</a>
+                            </li>
+                            <li class="col-12 border ms-1 view rounded nav-item">
+                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#temp">TEMPERED GLASS</a>
+                            </li>
+                            <li class="col-12 border ms-1 view rounded nav-item">
+                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#hard">HARD CASE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="col-12 col-sm-7 border border-primary rounded"> 
             <div id="char" class="bg-dark fa text-white fw-bold cntr border rounded">
                 <h3>CHARGER</h3>
             </div>
@@ -174,7 +176,7 @@
                 </div>      
             </div>
         </div>
-        <div class="col-12 col-sm-3 border rounded" >
+        <div class="col-12 col-sm-3 border rounded orb" >
             <div class="order rounded" >
                 <div>
                     <div class="d-flex justify-content-center align-items-center">
@@ -182,7 +184,7 @@
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div class="fw-bold" >
                         <table class="table" >
                             <thead>
                                 <tr>

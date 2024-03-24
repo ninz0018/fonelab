@@ -1,6 +1,6 @@
 .view:hover{
     transform: scale(1.1);
-    background-color: #c3c9c2;
+    background-color: #a8a8ac;
     border-radius: 800px;
   }
   
@@ -20,9 +20,11 @@
     top: 0;
 }
 
+.orb {
+  background-color: rgba(61, 61, 61, 0.5);
+}
 .order {
   overflow: hidden;
-  background-color: rgba(61, 61, 61, 0.5);
   position: -webkit-sticky; 
   position: sticky;
   z-index: 888;
@@ -34,8 +36,8 @@
 }
 
 .active {
-    background-color: rgb(211, 216, 207); 
-    color: rgb(207, 209, 207);
+    background-color: rgb(27, 0, 150); 
+    color: rgb(73, 53, 255);
     border-radius: 5px;
   }
 
