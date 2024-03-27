@@ -14,26 +14,25 @@
 </head>
 <body class="bd" >
     <script src="script.js" ></script>
-    <div class="d-flex justify-content-end align-items-end p-3" ></div>
-    <?php
-        session_start();
-    if (isset($_SESSION["user"])) {
-            echo '<script>
-                    Swal.fire({
-                        title: "Login Successful",
-                        text: "Click OK!!",
-                        icon: "success"
-                    });            
-                </script>';
-    } 
-     session_destroy();
-    ?>
-    <div class="row rounded fa cntr" >
-        <label class="fs-1 col-8 col-sm-10 cntr text-white" >CELLPHONE ACCESSORIES</label>
-        <button for="log-out" class="col-4 col-sm-1 fa btn btn-warning rounded" id="logout">
-            <a href="../index.php" style="text-decoration: none;" >LOG-OUT</a>
-        </button>
-    </div>
+        <?php
+            session_start();
+        if (isset($_SESSION["user"])) {
+                echo '<script>
+                        Swal.fire({
+                            title: "Login Successful",
+                            text: "Click OK!!",
+                            icon: "success"
+                        });            
+                    </script>';
+        } 
+        session_destroy();
+        ?>
+        <div class="bgs row rounded fa cntr bg p-3">
+            <label class="fs-1 col-8 col-sm-10 cntr text-white" >CELLPHONE ACCESSORIES</label>
+            <button for="log-out" class="col-4 col-sm-1 fa btn btn-warning rounded" id="logout">
+                <a href="../index.php" style="text-decoration: none;" >LOG-OUT</a>
+            </button>
+        </div>
     <div class="bg-white row p-3">
         <div class="col-12 col-sm-2 bg-dark rounded" >
             <div class="bar" >

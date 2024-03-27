@@ -74,7 +74,7 @@
 
         <div id="login1" class="min ms-0 p-1 ms-sm-3"></div>
     </div>
-    <div class="d-flex align-items-center justify-content-center bgs adjust">
+    <div class="d-flex align-items-center justify-content-center bg-dark adjust">
         <div class="sizes">
             <a href="https://m.me/ninz.getz.9" target="_blank">
                 <img class="sizes" src="contact/fb.svg" alt="FACEBOOK">

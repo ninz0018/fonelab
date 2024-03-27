@@ -53,7 +53,7 @@ function log(){
                                     <div class="d-flex align-items-center justify-content-center">
                                         <button class="fa btn btn-primary" type="submit" id="sign">SIGN-IN</button><br>
                                     </div>
-                                    <a class="d-flex align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
+                                    <a class="d-flex align-items-center text-danger justify-content-center" type="_blank" href="">Forget Password</a>
                                 </div>
                             </form>`);
 }
@@ -85,7 +85,7 @@ function signUps(){
                                 <div class="d-flex align-items-center justify-content-center">
                                     <button class="fa btn btn-primary" type="submit" id="sign">SUBMIT</button><br>
                                 </div>
-                                <a class="d-flex align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
+                                <a class="d-flex text-danger align-items-center justify-content-center" type="_blank" href="">Forget Password</a>
                                 </div>
                             </form>`);
 }
