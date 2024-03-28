@@ -41,24 +41,30 @@
                             <span class="navbar-toggler-icon"></span>
                     </button>
                     <div  class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="row navbar-nav ml-auto align-items-center justify-content-center">
-                            <li class="col-12 border ms-1 view rounded nav-item">
-                                <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="login" href="#char">CHARGER</a>
+                        <ul class="row navbar-nav align-items-center justify-content-center">
+                            <li class="col-12 ms-1 view nav-item">
+                                <a class="fa cntrs  rounded nav-link text-white text-decoration-none" id="login" href="#char">
+                                    <img src="data.svg" class="me-3" alt="data"> CHARGER</a>
                             </li>
-                            <li class="col-12 border ms-1 view rounded nav-item">
-                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#cable">CABLE WIRE</a>
+                            <li class="col-12 ms-1 view nav-item">
+                                <a class="fa cntrs rounded nav-link text-white text-decoration-none" id="browse" href="#cable">
+                                    <img src="data.svg" class="me-3" alt="data">CABLE WIRE</a>
                             </li>
-                            <li class="col-12 border ms-1 view rounded nav-item">
-                                <a class="fa cntr  rounded nav-link text-white text-decoration-none" id="browse" href="#hSet">HEADSET</a>
+                            <li class="col-12 ms-1 view nav-item">
+                                <a class="fa cntrs  rounded nav-link text-white text-decoration-none" id="browse" href="#hSet">
+                                    <img src="data.svg" class="me-3" alt="data">HEADSET</a>
                             </li>
-                            <li class="col-12 border ms-1 view rounded nav-item">
-                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#power">POWERBANK</a>
+                            <li class="col-12 ms-1 view nav-item">
+                                <a class="fa cntrs rounded nav-link text-white text-decoration-none" id="browse" href="#power">
+                                    <img src="data.svg" class="me-3" alt="data">POWERBANK</a>
                             </li>
-                            <li class="col-12 border ms-1 view rounded nav-item">
-                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#temp">TEMPERED GLASS</a>
+                            <li class="col-12 ms-1 view nav-item">
+                                <a class="fa cntrs rounded nav-link text-white text-decoration-none" id="browse" href="#temp">
+                                    <img src="data.svg" class="me-3" alt="data">TEMPERED GLASS</a>
                             </li>
-                            <li class="col-12 border ms-1 view rounded nav-item">
-                                <a class="fa cntr rounded nav-link text-white text-decoration-none" id="browse" href="#hard">HARD CASE</a>
+                            <li class="col-12 ms-1 view nav-item">
+                                <a class="fa cntrs rounded nav-link text-white text-decoration-none" id="browse" href="#hard">
+                                    <img src="data.svg" class="me-3" alt="data">HARD CASE</a>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +86,8 @@
                             <label class="col-3" for="qty">Qty: </label>
                             <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
-                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">
+                            <img src="cart.svg" alt="add"> Add to Cart</button><br><br>
                     </div>
                 </div>       
             </div>
@@ -98,7 +105,8 @@
                             <label class="col-3" for="qty">Qty: </label>
                             <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
-                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">
+                            <img src="cart.svg" alt="add">Add to Cart</button><br><br>
                     </div>
                 </div>      
             </div>
@@ -116,7 +124,8 @@
                             <label class="col-3" for="qty">Qty: </label>
                             <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
-                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">
+                            <img src="cart.svg" alt="add">Add to Cart</button><br><br>
                     </div>
                 </div>       
             </div>
@@ -134,7 +143,8 @@
                             <label class="col-3" for="qty">Qty: </label>
                             <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
-                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">
+                            <img src="cart.svg" alt="add">Add to Cart</button><br><br>
                     </div>
                 </div>       
             </div>
@@ -152,7 +162,8 @@
                             <label class="col-3" for="qty">Qty: </label>
                             <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
-                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">
+                            <img src="cart.svg" alt="add">Add to Cart</button><br><br>
                     </div>
                 </div>      
             </div>
@@ -170,7 +181,8 @@
                             <label class="col-3" for="qty">Qty: </label>
                             <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
-                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">Add to Cart</button><br><br>
+                        <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">
+                            <img src="cart.svg" alt="add">Add to Cart</button><br><br>
                     </div>
                 </div>      
             </div>

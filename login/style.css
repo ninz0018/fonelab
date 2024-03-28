@@ -1,7 +1,6 @@
 .view:hover{
     transform: scale(1.1);
     background-color: #a8a8ac;
-    border-radius: 800px;
   }
   
 .cntr {
@@ -9,6 +8,13 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+}
+
+.cntrs {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-weight: bold;
 }
 
 .bar {
@@ -38,7 +44,7 @@
 .active {
     background-color: rgb(27, 0, 150); 
     color: rgb(73, 53, 255);
-    border-radius: 5px;
+    border-radius: 20px;
   }
 
   .qty {

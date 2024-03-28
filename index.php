@@ -10,7 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="icon/x-icon" href="12.png">
+    <link rel="icon" type="icon/x-icon" href="13.png">
     <title>FONELAB</title>
 </head>
 <body id="background">
@@ -19,7 +19,7 @@
         <div>
             <nav id="navbar" class="fw-bold navbar navbar-dark bg-dark navbar-expand-md">
                 <a class="ms-3 navbar-brand" href="#">
-                    <img style="height: auto; width: 90px" src="12.png"></img>
+                    <img style="height: auto; width: 90px" class="rounded" src="13.png"></img>
                 </a>
                     <button style="margin-right: 10px;" class="btn-warning navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
