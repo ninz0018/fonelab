@@ -22,10 +22,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         if($pass === $rPass) {
    
-            $query = "INSERT INTO users (username, pwd, gmail) VALUES (?, ?, ?);";
+            $query = "INSERT INTO users (username, pwd, gmail) VALUES (:username, :pwd, :gmail);";
             
             $stmt = $pdo->prepare($query);
-            $stmt->execute([$user, $pass, $gmail]);
+
+            $stmt->bindParam(":username", $user);
+            $stmt->bindParam(":pwd", $pass);
+            $stmt->bindParam(":gmail", $gmail);
+
+           $stmt->execute();
 
             $pdo = null;
             $stmt = null;
