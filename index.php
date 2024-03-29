@@ -72,6 +72,19 @@
                     signUps();
                 })
                 </script>";
+        }else if (isset($_SESSION['invalid'])){
+            echo '<script>
+            Swal.fire({
+                title: "Invalid Password or Username",
+                text: "Try Again!!",
+                icon: "warning"
+              });            
+            </script>';
+            echo "<script>
+                $(document).ready(function(){
+                    log();
+                })
+                </script>";
         }
             session_destroy();
         ?>

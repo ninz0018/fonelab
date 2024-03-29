@@ -4,8 +4,8 @@ session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
      
     $user = htmlspecialchars($_POST["username"]);
-    $pass = htmlspecialchars($_POST["pwd"]);
-    $rPass = htmlspecialchars($_POST["rPwd"]);
+    $pass = md5($_POST["pwd"]);
+    $rPass = md5($_POST["rPwd"]);
     $gmail = $_POST["gmail"];
     
  /*   if (!empty(trim($user)) && !empty(trim($pass)) && trim($rPass) == $pass) {

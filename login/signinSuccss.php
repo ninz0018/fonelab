@@ -16,7 +16,7 @@
     <script src="script.js" ></script>
         <?php
             session_start();
-        if (isset($_SESSION["user"])) {
+        if (isset($_SESSION["sUp"])) {
                 echo '<script>
                         Swal.fire({
                             title: "Login Successful",
@@ -87,7 +87,7 @@
                             <input class="qty col-3" type="number" name="qty" value="1" id="qty">    
                         </div>
                         <button id="adding" class="col-10 col-sm-10 add btn btn-primary rounded mt-2 " value="150">
-                            <img src="cart.svg" alt="add"> Add to Cart</button><br><br>
+                            <img src="cart.svg" alt="add">Add to Cart</button><br><br>
                     </div>
                 </div>       
             </div>
