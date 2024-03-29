@@ -30,10 +30,10 @@
         <div class="bgs row rounded fa cntr bg p-3">
             <label class="fs-1 col-8 col-sm-10 cntr text-white" >CELLPHONE ACCESSORIES</label>
             <button for="log-out" class="col-4 col-sm-1 fa btn btn-warning rounded" id="logout">
-                <a href="../index.php" style="text-decoration: none;" >LOG-OUT</a>
+                <a href="../process/logout.php" style="text-decoration: none;" >LOG-OUT</a>
             </button>
         </div>
-    <div class="bg-white row p-3">
+    <div class="bg-white row p-3" >
         <div class="col-12 col-sm-2 bg-dark rounded" >
             <div class="bar" >
                 <nav id="navbar" class="fw-bold navbar navbar-dark bg-dark navbar-expand-md rounded">
@@ -43,7 +43,7 @@
                     <div  class="collapse navbar-collapse" id="navbarNav">
                         <ul class="row navbar-nav align-items-center justify-content-center">
                             <li class="col-12 ms-1 view nav-item">
-                                <a class="fa cntrs  rounded nav-link text-white text-decoration-none" id="login" href="#char">
+                                <a class="fa cntrs rounded nav-link text-white text-decoration-none" id="login" href="#char">
                                     <img src="data.svg" class="me-3" alt="data"> CHARGER</a>
                             </li>
                             <li class="col-12 ms-1 view nav-item">

@@ -71,6 +71,11 @@ function signUps(){
                                         <i class="fas fa-user psicon"></i>
                                         <input type="text" name="username" class="form-control" id="username" autocomplete="off" required placeholder="Enter Username"><br>  
                                     </div><br>
+                                    <label class="fw-bold text-warning fa mb-2" for="username">GMAIL:</label>
+                                    <div class="d-flex justify-content-center align-items-center position">
+                                        <i class="fas fa-envelope psicon"></i>
+                                        <input type="text" name="gmail" class="form-control" id="gmail" autocomplete="off" required placeholder="Enter Gmail"><br>  
+                                    </div><br>
                                     <label class="fw-bold text-warning fa mb-2" for="password">Password:</label>
                                     <div class="position d-flex justify-content-center align-items-center position" >
                                         <i class="fas fa-lock psicon"></i>
