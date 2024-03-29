@@ -67,6 +67,11 @@
                 icon: "warning"
               });            
             </script>';
+            echo "<script>
+                $(document).ready(function(){
+                    signUps();
+                })
+                </script>";
         }
             session_destroy();
         ?>
