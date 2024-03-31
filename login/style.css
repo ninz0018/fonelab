@@ -17,6 +17,12 @@
   font-weight: bold;
 }
 
+.end {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
 .bar {
     overflow: hidden;
     background-color: rgba(61, 61, 61, 0.5);

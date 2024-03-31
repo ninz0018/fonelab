@@ -71,9 +71,14 @@
                 </nav>
             </div>
         </div>
-        <div class="col-12 col-sm-7 border border-primary rounded"> 
-            <div id="char" class="bg-dark fa text-white fw-bold cntr border rounded">
-                <h3>CHARGER</h3>
+        <div class="col-12 col-sm-7 rounded"> 
+            <div id="char" class="bg-dark fa text-white fw-bold d-flex p-1 rounded row">
+                <div class="col-9 cntr" >
+                    <h3>CHARGER</h3>
+                </div>
+                <div class="col-3 end" >
+                    <button class="btn btn-warning d-flex align-items-end justify-content-end" >ADD ITEMS</button>
+                </div>
             </div>
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
@@ -91,8 +96,13 @@
                     </div>
                 </div>       
             </div>
-            <div id="cable" class="bg-dark fa text-white fw-bold cntr border rounded">
-                <h3>CABLE WIRE</h3>
+            <div id="cable" class="bg-dark fa text-white fw-bold d-flex p-1 rounded row">
+                <div class="col-9 cntr" >
+                    <h3>CABLE WIRE</h3>
+                </div>
+                <div class="col-3 end" >
+                    <button class="btn btn-warning d-flex align-items-end justify-content-end" >ADD ITEMS</button>
+                </div>
             </div>
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
@@ -110,8 +120,13 @@
                     </div>
                 </div>      
             </div>
-            <div id="hSet" class="bg-dark fa text-white fw-bold cntr border rounded">
-                <h3>HEADSET</h3>
+            <div id="hSet" class="bg-dark fa text-white fw-bold d-flex p-1 rounded row">
+                <div class="col-9 cntr" >
+                    <h3>HEADSET</h3>
+                </div>
+                <div class="col-3 end" >
+                    <button class="btn btn-warning d-flex align-items-end justify-content-end" >ADD ITEMS</button>
+                </div>
             </div>
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
@@ -129,8 +144,13 @@
                     </div>
                 </div>       
             </div>
-            <div id="power" class="bg-dark fa text-white fw-bold cntr border rounded">
-                <h3>POWERBANK</h3>
+            <div id="power" class="bg-dark fa text-white fw-bold d-flex p-1 rounded row">
+                <div class="col-9 cntr" >
+                    <h3>POWERBANK</h3>
+                </div>
+                <div class="col-3 end" >
+                    <button class="btn btn-warning d-flex align-items-end justify-content-end" >ADD ITEMS</button>
+                </div>
             </div>
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
@@ -148,8 +168,13 @@
                     </div>
                 </div>       
             </div>
-            <div id="temp" class="bg-dark fa text-white fw-bold cntr border rounded">
-                <h3>TEMPERED GLASS</h3>
+            <div id="temp" class="bg-dark fa text-white fw-bold d-flex p-1 rounded row">
+                <div class="col-9 cntr" >
+                    <h3>TEMPERED GLASS</h3>
+                </div>
+                <div class="col-3 end" >
+                    <button class="btn btn-warning d-flex align-items-end justify-content-end" >ADD ITEMS</button>
+                </div>
             </div>
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
@@ -167,8 +192,13 @@
                     </div>
                 </div>      
             </div>
-            <div id="hard" class="bg-dark fa text-white fw-bold cntr border rounded">
-                <h3>HARD CASE</h3>
+            <div id="hard" class="bg-dark fa text-white fw-bold d-flex p-1 rounded row">
+                <div class="col-9 cntr" >
+                    <h3>HARDCASE</h3>
+                </div>
+                <div class="col-3 end" >
+                    <button class="btn btn-warning d-flex align-items-end justify-content-end" >ADD ITEMS</button>
+                </div>
             </div>
             <div class="border row rounded cntr" > 
                 <div class="col-6 col-sm-2 view border rounded p-1 ">
