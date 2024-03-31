@@ -19,8 +19,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
         require_once "dbh.inc.php";
+
+        $query1 = "SELECT * FROM users WHERE username = :username";   
+        $stmt = $pdo->prepare($query1);    
+        $stmt->bindParam(":username", $user);
+        $stmt->execute(); 
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
-        if($pass === $rPass) {
+        if($pass === $rPass && !$result) {
    
             $query = "INSERT INTO users (username, pwd, gmail) VALUES (:username, :pwd, :gmail);";
             

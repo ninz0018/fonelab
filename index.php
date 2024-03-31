@@ -62,7 +62,7 @@
         }else if (isset($_SESSION['match'])){
             echo '<script>
             Swal.fire({
-                title: "Password Dont Match",
+                title: "Password Dont Match Or Username already taken!!",
                 text: "Try Again!!",
                 icon: "warning"
               });            
@@ -93,7 +93,7 @@
         <div id="login1" class="min ms-0 p-1 ms-sm-3"></div>
     </div>
     <div class="d-flex align-items-center justify-content-center bg-dark adjust">
-        <div class="sizes">
+        <div>
             <a href="https://m.me/ninz.getz.9" target="_blank">
                 <img class="sizes" src="contact/fb.svg" alt="FACEBOOK">
             </a>
